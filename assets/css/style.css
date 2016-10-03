@@ -1,0 +1,133 @@
+/* PORTFOLIO/HOME SECTION */
+@media (min-width: 992px){
+    .portfolio-colum.portfolio-masonry.masonry-grid-3 > figure {
+        width: 50%;
+    }
+}
+@media (min-width: 768px){
+    .portfolio-colum.portfolio-masonry.masonry-grid-3 > figure {
+    width: 50%;
+    }
+}
+
+.header{
+  text-align: right;
+}
+.description{
+  font-size: 16px;
+  font-weight: 300;
+}
+.description a{
+  color: red;
+}
+/* HOME SECTION -text rotator*/
+.intro-text {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+}
+.intro-text .weight300 {
+    font-weight: 300;
+}
+.block {
+    display: block;
+}
+
+
+/* ABOUT SECTION */
+
+
+/* SERVICES SECTION */
+.bg-img-services {
+    background: url('../img/bg/services-bg1.jpg') 100% fixed no-repeat; 
+    position: relative;  
+}
+.shadow {
+    height: 80%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: url("../img/shadow1.png") no-repeat scroll center top;
+    background-size: 100%;
+}
+.bg-opacity {
+    background: rgba(255,255,255, .9);
+}
+.padding30 {
+  padding: 30px;
+}
+.services-img01 {
+  position: absolute;
+  z-index: 2;
+  bottom: -90px;
+  right: 0px;
+}
+
+/* PORTFOLIO SECTION */
+.mycol-grey{
+  background-color: rgb(249,249,249);
+}
+
+.portfolio-single-v2 .myrow .mycol img{display:block;
+margin:auto;
+}
+/* CONTACT SECTION  */
+.contact-details {
+  background: url(../img/map_bg.png) center no-repeat;
+}
+/**/
+@media (min-width: 768px) {
+   .contact-info{
+    width: 40%;
+    margin-left: 5%;
+    display: inline-block;
+  }
+  .pdf{
+  width: 30%;
+  
+  }
+}
+
+
+/*------- CUSTOM -------*/
+.profile{
+  padding-top: 30px;
+}
+.grey{
+  color: #333;
+}
+.work li{
+   list-style-type: circle;
+}
+.sub1{
+  font-size: 1em;
+}
+.sub{
+  font-size: 0.9em;
+}
+.page-header{
+  margin-bottom: 30px;
+}
+.pdf{
+  padding: 10px 20px;
+  margin: 0 auto;
+  margin: 40px;
+  text-align: center;
+  color: #fff;
+  
+}
+
+.pdf:hover{
+  color: #ff1919 !important;
+  border:1px solid #ff1919 !important;
+
+}
+#large i a{
+  font-size: 5em !important;
+}
+
+
+
+
+
